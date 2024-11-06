@@ -18,5 +18,9 @@ export const pokemonSlice = createSlice({
 });
 
 
+// Thunks: acciones que disparan otra accion, asincronas (funciones asincronas)
+// cuando termina exitosa o con algun error dispara una accion a nuestro reducer.
+
+
 // Action creators are generated for each case reducer function
 export const { startLoadingPokemons, setPokemons } = pokemonSlice.actions;
